@@ -38,12 +38,12 @@ body{
     padding-top: 30px;
 }
 .card img{
-    width: 200px;
-    height: 250px;
+    width: 150px;
+    height: 200px;
     border: 1px solid #dfdfea;
 }
 .card p{
-    font-size: 2em;
+    font-size: 22px;
     color: #d6cd1a;
     padding-top: 20px;
 }
