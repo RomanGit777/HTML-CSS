@@ -1,8 +1,19 @@
 *{
     margin: 0;
 }
-.div{
-    width: 100px;
-    height: 100px;
-    background-color: green;
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: #426342;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+.cards{
+    width: 180px;
+    height: 150px;
+    background-color: #abc8ab;
+    margin: 15px;
+    border-radius: 5px;
 }
