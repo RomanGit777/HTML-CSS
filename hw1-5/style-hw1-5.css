@@ -41,10 +41,12 @@ body{
     width: 150px;
     height: 200px;
     border: 1px solid #dfdfea;
+
 }
 .card p{
     font-size: 22px;
     color: #d6cd1a;
     padding-top: 20px;
+
 }
 
