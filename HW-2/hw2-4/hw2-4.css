@@ -2,28 +2,28 @@
 
 .rubik{
     font-family: "Rubik Pixels", system-ui;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
 }
 .sedgwick{
     font-family: "Sedgwick Ave Display", cursive;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
 }
 .dancing{
   font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
 }
 .fjalla{
     font-family: "Fjalla One", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
 }
 .indie{
     font-family: "Indie Flower", cursive;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
 }
 
@@ -37,5 +37,11 @@
 .card{
     width: 200px;
     height: 180px;
-    background-color: lightgrey;
+    background-color: #9c8484;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card, p{
+    font-size: 16px;
 }
