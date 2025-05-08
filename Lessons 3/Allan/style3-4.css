@@ -65,3 +65,79 @@ main button:hover{
     transition: 2s;
     color: #537161;
 }
+/*--------------------------------------contact-------------------------------------*/
+/*.diagram frame{*/
+/*    width: 250px;*/
+/*    height: 50px;*/
+/*    background: #ffffff;*/
+/*    border: grey solid 1px;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+/*!*.diagram{*!*/
+/*!*    width: 250px;*!*/
+/*!*    height: 50px;*!*/
+/*!*    background: #ffffff;*!*/
+/*!*    border: grey solid 1px;*!*/
+/*!*    display: flex;*!*/
+/*!*    justify-content: center;*!*/
+/*!*    align-items: center;*!*/
+/*!*}*!*/
+/*.diagram-message{*/
+/*    width: 250px;*/
+/*    height: 350px;*/
+/*    background: #ffffff;*/
+/*    border: grey solid 1px;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+/*.diagram-submit{*/
+/*    display: flex;*/
+/*    justify-content: flex-start;*/
+/*    align-items: center;*/
+/*}*/
+/*--------------------------------------AI-------------------------------------*/
+.contact-form {
+    width: 600px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    height: 250px;
+    resize: vertical;
+}
+
+.contact-form button {
+    padding: 12px;
+    background-color: #5a945a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.contact-form button:hover {
+    transform: scale(1.05);
+}
+h1{
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    margin-top: 70px;
+}
