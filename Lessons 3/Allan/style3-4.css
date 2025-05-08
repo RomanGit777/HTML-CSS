@@ -167,3 +167,15 @@ margin-top: 40px;
 .map{
     margin-left: 720px;
 }
+/*----------------------------------------------blog-------------------------------------------*/
+.main-blog{
+    font-size: 24px;
+    margin-top: 50px;
+}
+.after-hr{
+   margin-top: 50px;
+}
+.img-map{
+    display: block;
+    margin: 0 auto;
+}
