@@ -151,3 +151,19 @@ main button:hover{
 .p-about{
 margin-top: 40px;
 }
+
+/*-----------------------------------------location--------------------------------*/
+.h2-location{
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    margin-top: 70px;
+    letter-spacing: 10px;
+    font-size: 70px;
+}
+.p-location{
+    margin-top: 50px;
+    text-align: center;
+}
+.map{
+    margin-left: 720px;
+}
