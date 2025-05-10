@@ -9,13 +9,13 @@ section{
     justify-content:center;
     align-items:center;
 }
-.top-section{
+#top-section{
     background-color: #984b4b;
 }
-.middle-section{
+#middle-section{
     background-color:lightblue;
 }
-.bottom-section{
+#bottom-section{
     background-color:green;
 }
 section p{
