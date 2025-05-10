@@ -20,4 +20,16 @@ section{
 }
 section p{
     width: 90%;
+    font-size: 24px;
+}
+section h2{
+    margin-bottom: 20px;
+}
+.div-up-arrow{
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+.div-bottom-arrow{
+    font-size: 50px;
+    margin-bottom: 60px;
 }
