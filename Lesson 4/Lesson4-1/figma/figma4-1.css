@@ -53,3 +53,18 @@ header nav a{
     font-weight: 700;
     letter-spacing: -0.531px;
 }
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 68px;
+}
+.hero div h1{
+    color: #19191B;
+    font-family: "DM Sans", sans-serif;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 77px; /* 102.667% */
+    letter-spacing: -2.501px;
+}
