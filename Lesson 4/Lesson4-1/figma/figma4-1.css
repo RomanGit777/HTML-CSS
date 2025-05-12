@@ -68,3 +68,13 @@ header nav a{
     line-height: 77px; /* 102.667% */
     letter-spacing: -2.501px;
 }
+.hero div p{
+    color: #696871;
+    font-family: "Mulish", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    letter-spacing: -0.625px;
+    margin: 30px 0 50px 0;
+}
