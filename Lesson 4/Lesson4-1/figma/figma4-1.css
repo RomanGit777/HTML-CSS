@@ -53,6 +53,7 @@ header nav a{
     font-weight: 700;
     letter-spacing: -0.531px;
 }
+/*---------------------------hero----------------------------*/
 .hero{
     display: flex;
     justify-content: space-between;
@@ -105,5 +106,36 @@ header nav a{
     justify-content: space-between;
     align-items: center;
     flex-direction: row-reverse;
+}
+.group-2 h2{
+    color: #19191B;
+    font-family: "DM Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 57px; /* 114% */
+    letter-spacing: -1.563px;
+}
+.group-2 p{
+    color: #696871;
+    font-family: "Mulish", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    letter-spacing: -0.625px;
+}
+.group-2 a{
+    color: #5454D4;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: -0.531px;
+}
+.group-2 div{
+    display: flex;
+    width: 556px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
 }
 
