@@ -77,4 +77,19 @@ header nav a{
     line-height: 30px; /* 150% */
     letter-spacing: -0.625px;
     margin: 30px 0 50px 0;
+    width: 409.426px;
 }
+.hero button{
+    width: 188.211px;
+    height: 60px;
+    border-radius: 10px;
+    background: #5454D4;
+    color: #FFF;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: -0.531px;
+    border: none;
+}
+
