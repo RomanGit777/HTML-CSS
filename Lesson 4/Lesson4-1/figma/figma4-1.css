@@ -138,4 +138,48 @@ header nav a{
     align-items: flex-start;
     gap: 30px;
 }
+/*-----------------------------------group3----------------------*/
+.group-3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.group-3 h2{
+    color: #19191B;
+    font-family: "DM Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 57px; /* 114% */
+    letter-spacing: -1.563px;
+}
+.group-3 p{
+    color: #696871;
+    font-family: "Mulish", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    letter-spacing: -0.625px;
+}
+.group-3 a{
+    color: #5454D4;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: -0.531px;
+}
+.group-3 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 409px;
+    gap: 30px;
+    margin: 262px 165px 254px 0;
+}
+.group-3 img{
+    width: 324px;
+    height: 474px;
+}
+
+
 
