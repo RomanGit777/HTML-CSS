@@ -92,4 +92,18 @@ header nav a{
     letter-spacing: -0.531px;
     border: none;
 }
+/*-----------------------------brands-----------------------------*/
+.brands{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 212px 0 160px 0;
+}
+/*--------------------------------Group-2----------------------------------------*/
+.group-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
 
