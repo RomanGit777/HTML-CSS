@@ -181,18 +181,17 @@ header nav a{
     height: 474px;
 }
 /*-----------------------------------cards------------------------------*/
-.cards div{
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
-    /*text-align: center;*/
-    /*flex-direction: row;*/
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-
-
+    text-align: center;
+    gap: 20px;
 }
 .cards h3{
     color: #19191B;
@@ -214,6 +213,9 @@ header nav a{
     letter-spacing: -0.5px;
     width: 307px;
 }
+
+
+
 
 
 
