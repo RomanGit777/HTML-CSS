@@ -219,6 +219,22 @@ header nav a{
     display: flex;
     justify-content: space-evenly;
 }
+.group-4 div h1{
+    color: #19191B;
+    font-family: "DM Sans", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px; /* 116.667% */
+    letter-spacing: -1.876px;
+    width: 523px;
+}
+.group-4 div button{
+    width: 160px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 10px 0 0 10px;
+    /*background: #5454D4;*/
+}
 
 
 
