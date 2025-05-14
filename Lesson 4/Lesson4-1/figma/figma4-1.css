@@ -234,7 +234,25 @@ header nav a{
     flex-shrink: 0;
     border-radius: 10px 0 0 10px;
     /*background: #5454D4;*/
+    /*color: #19191B;*/
+    border: none;
+    color: #19191B;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    transition: 1s;
 }
+.group-4 div button:hover{
+    background-color: #5454D4;;
+    color: #FFFFFF;
+    transition: 1s;
+}
+.group-4 button{
+
+}
+
 
 
 
