@@ -263,6 +263,12 @@ header nav a{
     background-color: #5454D4;
     color: white;
 }
+.frame{
+    width: 330px;
+    height: 441px;
+    border-radius: 10px;
+    background: #F8F8F8;
+}
 
 
 
