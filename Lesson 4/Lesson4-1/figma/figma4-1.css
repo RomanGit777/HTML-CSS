@@ -215,43 +215,55 @@ header nav a{
     width: 307px;
 }
 /*------------------------------group4--------------------------------*/
-.group-4 div{
+.content-4 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
 }
-.group-4 div h1{
+
+.content-4 h1{
     color: #19191B;
     font-family: "DM Sans", sans-serif;
     font-size: 60px;
+    font-style: normal;
     font-weight: 700;
     line-height: 70px; /* 116.667% */
     letter-spacing: -1.876px;
     width: 523px;
 }
-.group-4 div button{
+
+.button-group {
+    display: flex;
+}
+
+.button-group button {
     width: 160px;
     height: 55px;
-    flex-shrink: 0;
-    border-radius: 10px 0 0 10px;
-    /*background: #5454D4;*/
-    /*color: #19191B;*/
     border: none;
+    background: #f0f0f0;
     color: #19191B;
     text-align: center;
     font-family: "DM Sans", sans-serif;
     font-size: 16px;
     font-weight: 700;
     letter-spacing: -0.5px;
-    transition: 1s;
+    transition: 0.3s;
 }
-.group-4 div button:hover{
-    background-color: #5454D4;;
-    color: #FFFFFF;
-    transition: 1s;
-}
-.group-4 button{
 
+.button-group .yearly {
+    border-radius: 10px 0 0 10px;
+    border-right: 1px solid #ccc;
 }
+
+.button-group .monthly {
+    border-radius: 0 10px 10px 0;
+}
+
+.button-group button:hover {
+    background-color: #5454D4;
+    color: white;
+}
+
 
 
 
