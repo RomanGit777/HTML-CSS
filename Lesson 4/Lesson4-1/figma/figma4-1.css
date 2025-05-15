@@ -273,6 +273,45 @@ header nav a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
+}
+.frame p{
+    color: #696871;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+    letter-spacing: -0.563px;
+    margin: 34px 0 22px 0;
+}
+.frame h1{
+    color: #1D293F;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; /* 93.333% */
+    letter-spacing: -1.034px;
+    margin-bottom: 28px;
+}
+.frame button{
+    color: #5454D4;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.531px;
+    width: 285px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid #EAE9F2;
+    background: #FFF;
+    margin: 36px 0 27px 0;
 }
 
 
