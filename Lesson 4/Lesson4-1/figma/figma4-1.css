@@ -265,16 +265,17 @@ header nav a{
 }
 .frame{
     width: 330px;
-    height: 441px;
+    height: 461px;
     border-radius: 10px;
     background: #F8F8F8;
+    transition: 1s;
 }
 .pricing{
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    transition: 1s;
+    margin: 98px 0 174px 0;
 }
 .frame p{
     color: #696871;
@@ -313,6 +314,7 @@ header nav a{
     border: 1px solid #EAE9F2;
     background: #FFF;
     margin: 36px 0 27px 0;
+    transition: 1s;
 }
 .frame:hover{
     transform: scale(1.1);
@@ -320,6 +322,13 @@ header nav a{
     border-radius: 10px;
     background-color: #FF7143;
     box-shadow: 0 32px 34px 0 rgba(255, 112, 59, 0.32);
+}
+.pricing button:hover{
+    border-radius: 10px;
+    background: #9F3919;
+    transform: scale(1);
+    transition: 1s;
+    color: white;
 }
 
 
