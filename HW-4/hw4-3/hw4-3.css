@@ -14,3 +14,9 @@ section{
     width: 60vw;
     background: #A4A4A4;
 }
+.section__aside-top{
+    height: 40vh;
+}
+.section__aside-bottom{
+    height: 35vh;
+}
