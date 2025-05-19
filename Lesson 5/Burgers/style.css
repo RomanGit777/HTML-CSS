@@ -60,7 +60,7 @@ ul a{
 }
 .header-img{
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 32px auto;
 }
 /*-------------------------*/
 .section-about{
@@ -72,6 +72,7 @@ ul a{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 64px;
 }
 .section-about h2{
     width: 533px;
@@ -117,3 +118,4 @@ ul a{
     flex-direction: column;
     margin-left: 28px;
 }
+/*-----------------------------------*/
