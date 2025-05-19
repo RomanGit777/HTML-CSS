@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
     .circle{
         width: 200px;
         height: 200px;
@@ -12,6 +18,15 @@
         border-right: 30px solid lightseagreen;
         border-bottom: 30px solid lightpink;
         border-left: 30px solid lightgrey;
+        animation: preloader 5s linear infinite alternate;
+    }
+    @keyframes preloader {
+        from{
+            transform: rotate(360deg);
+        }
+        to{
+            transform: rotate(-360deg) scale(1.4);
+        }
     }
     </style>
 </head>
