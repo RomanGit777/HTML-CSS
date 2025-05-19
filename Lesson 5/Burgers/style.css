@@ -58,3 +58,7 @@ ul a{
     text-transform: uppercase;
     margin: 74px auto 33px auto;
 }
+.header-img{
+    display: block;
+    margin: 0 auto;
+}
