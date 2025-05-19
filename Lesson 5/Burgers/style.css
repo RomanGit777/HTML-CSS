@@ -110,4 +110,10 @@ ul a{
     font-weight: 400;
     line-height: 96.896%; /* 17.441px */
     text-transform: uppercase;
+    margin-top: 34px;
+}
+.section-about div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 28px;
 }
