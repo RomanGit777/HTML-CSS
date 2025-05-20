@@ -10,6 +10,26 @@
     justify-content: center;
     align-items: center;
   }
+  .animation{
+    height: 200px;
+    width: 200px;
+  }
+
+  @keyframes spin-back-and-forth {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(360deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+  .wheel {
+    animation: spin-back-and-forth 4s linear infinite;
+  }
   </style>
 </head>
 <body>
