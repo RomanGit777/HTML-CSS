@@ -19,12 +19,18 @@
     }
     div>div>img{
       width: 250px;
-      height: 200px;
+      height: 140px;
     }
     .form-registration>div:nth-child(1){
       display: flex;
       justify-content: center;
       align-items: center;
+    }
+    .login-input{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
     }
   </style>
 </head>
@@ -35,7 +41,7 @@
          alt="instagram-logo">
   </div>
   <form>
-    <label>
+    <label class="login-input">
       <input type="text" name="login" placeholder="Номер телефону, ім'я користувача або email">
       <input type="password" name="password" placeholder="Пароль">
       <button>Увійти</button>
