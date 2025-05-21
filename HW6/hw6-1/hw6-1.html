@@ -3,119 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <style>
+        body{
+            height: 100vh;
+            margin: 0;
+            font-family: arial, sans-serif;
+            background-color: darkcyan;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .form-registration{
+            width: 35vw;
+            height: 50vh;
+            background-color: white;
+            border-radius: 20px;
+        }
+        .form-registration div:nth-child(1){
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(0, 139, 139, 0.13);
+            height: 25%;
+        }
+        .form-registration div:nth-child(1) h3{
+            font-size: 30px;
+            font-weight: 400;
+        }
+        .form-registration form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        input[type="text"],
+        input[type="password"]{
+            width: 300px;
+            margin: 15px;
+            height: 30px;
+        }
+        .form-registration>form>div{
+            width: 300px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 15px;
+        }
+        form input[type="submit"]{
+            background-color: rgba(0, 139, 139, 0.13);
+            border-radius: 10px;
+            border: 1px solid grey;
+            width: 80px;
+            height: 25px;
+        }
+    </style>
 </head>
-<style>
-    div.list-1>ul>li:nth-child(even){
-        color: pink;
-    }
-    div.list-2>ul>li:nth-child(odd){
-        font-size: 22px;
-    }
-    div.list-3>ul>li:nth-child(2n+4)::after{
-        content: "<!>";
-    }
-    div.list-4>ul>li:last-of-type{
-        color: purple;
-    }
-    div.list-5>ul>li:first-letter{
-        color: red;
-        font-size: 30px;
-    }
-</style>
 <body>
-
-<div class="list-1">
-    <h2>General lists:</h2>
-    <ul>
-        <li>List of 18th-century British children's literature titles</li>
-        <li>List of 19th-century British children's literature titles</li>
-        <li>List of American children's books</li>
-        <li>List of Australian crime-related books and media</li>
-        <li>List of anonymously published works</li>
-        <li>List of autobiographies</li>
-        <li>Lists of banned books</li>
-        <li>List of books written by children or teenagers</li>
-        <li>List of book titles taken from literature</li>
-        <li>List of books by year of publication</li>
-        <li>List of children's books made into feature films</li>
-        <li>List of Christian novels</li>
-    </ul>
-</div>
-
-<div class="list-2">
-    <h2>General lists:</h2>
-    <ul>
-        <li>List of 18th-century British children's literature titles</li>
-        <li>List of 19th-century British children's literature titles</li>
-        <li>List of American children's books</li>
-        <li>List of Australian crime-related books and media</li>
-        <li>List of anonymously published works</li>
-        <li>List of autobiographies</li>
-        <li>Lists of banned books</li>
-        <li>List of books written by children or teenagers</li>
-        <li>List of book titles taken from literature</li>
-        <li>List of books by year of publication</li>
-        <li>List of children's books made into feature films</li>
-        <li>List of Christian novels</li>
-    </ul>
-</div>
-
-<div class="list-3">
-    <h2>General lists:</h2>
-    <ul>
-        <li>List of 18th-century British children's literature titles</li>
-        <li>List of 19th-century British children's literature titles</li>
-        <li>List of American children's books</li>
-        <li>List of Australian crime-related books and media</li>
-        <li>List of anonymously published works</li>
-        <li>List of autobiographies</li>
-        <li>Lists of banned books</li>
-        <li>List of books written by children or teenagers</li>
-        <li>List of book titles taken from literature</li>
-        <li>List of books by year of publication</li>
-        <li>List of children's books made into feature films</li>
-        <li>List of Christian novels</li>
-    </ul>
-</div>
-
-<div class="list-4">
-    <h2>General lists:</h2>
-    <ul>
-        <li>List of 18th-century British children's literature titles</li>
-        <li>List of 19th-century British children's literature titles</li>
-        <li>List of American children's books</li>
-        <li>List of Australian crime-related books and media</li>
-        <li>List of anonymously published works</li>
-        <li>List of autobiographies</li>
-        <li>Lists of banned books</li>
-        <li>List of books written by children or teenagers</li>
-        <li>List of book titles taken from literature</li>
-        <li>List of books by year of publication</li>
-        <li>List of children's books made into feature films</li>
-        <li>List of Christian novels</li>
-    </ul>
-</div>
-
-<div class="list-5">
-    <h2>General lists:</h2>
-    <ul>
-        <li>List of 18th-century British children's literature titles</li>
-        <li>List of 19th-century British children's literature titles</li>
-        <li>List of American children's books</li>
-        <li>List of Australian crime-related books and media</li>
-        <li>List of anonymously published works</li>
-        <li>List of autobiographies</li>
-        <li>Lists of banned books</li>
-        <li>List of books written by children or teenagers</li>
-        <li>List of book titles taken from literature</li>
-        <li>List of books by year of publication</li>
-        <li>List of children's books made into feature films</li>
-        <li>List of Christian novels</li>
-    </ul>
-</div>
-
+    <div class="form-registration">
+        <div>
+            <h3>Вхід в особистий кабінет</h3>
+        </div>
+        <form>
+            <input type="text" name="login" placeholder="Логін або email">
+            <input type="password" name="password" placeholder="Пароль">
+            <div>
+                <label>
+                Запам'ятати мене
+                <input type="checkbox" name="remember">
+                </label>
+                <input type="submit" value="Вхід">
+            </div>
+        </form>
+    </div>
 </body>
 </html>
+
