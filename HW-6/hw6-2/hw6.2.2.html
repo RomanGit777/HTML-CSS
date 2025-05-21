@@ -4,79 +4,49 @@
     <meta charset="UTF-8">
     <title>Title</title>
   <style>
-    body{
-      height: 100vh;
-      margin: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      box-sizing: border-box;
-    }
-    .form-registration{
-      width: 50vw;
-      height: 60vh;
-      background-color: white;
-      border: solid 1px lightgray;
-    }
-    div>div>img{
-      width: 250px;
-      height: 140px;
-    }
-    .form-registration>div:nth-child(1){
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    .login-input{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-    }
-    .logo-facebook{
-      width: 20px;
-      height: 20px;
-      margin-top: 15px;
-    }
-    .logo-link-facebook{
-      display: flex;
-      flex-direction: row-reverse;
-    }
-    .medium-function{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-    }
-    a{
-      text-decoration: none;
-      color: #4d4dda;
-    }
+
+
+
+      div>div>img{
+      width: 200px;
+      height: 150px;
+      }
+      .fb-btn {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 8px;
+          color: #385185;
+          font-weight: bold;
+          text-decoration: none;
+          font-size: 14px;
+      }
+
+      .fb-icon {
+          width: 18px;
+          height: 18px;
+      }
   </style>
 </head>
 <body>
-<div class="form-registration">
-  <div>
+<div class="container">
+  <div class="login-box">
     <img src="https://th.bing.com/th/id/R.825e4d7b40faa8f9c51da0c73d6254d8?rik=RVfV80ATb%2boUhg&pid=ImgRaw&r=0"
          alt="instagram-logo">
+      <input type="text" placeholder="Номер телефону, ім'я користувача або е-пошта">
+      <input type="password" placeholder="Пароль">
+      <a class="login-button" href="#">Увійти</a>
+      <div class="divider">АБО</div>
+      <a href="#" class="fb-btn">
+          <img src="https://static.vecteezy.com/system/resources/previews/018/930/476/original/facebook-logo-facebook-icon-transparent-free-png.png" alt="Facebook" class="fb-icon">
+          Увійти через Facebook
+      </a>
+      <a href="#" class="forgot">Забули пароль?</a>
   </div>
-  <form>
-    <label class="login-input">
-      <input type="text" name="login" placeholder="Номер телефону, ім'я користувача або email">
-      <input type="password" name="password" placeholder="Пароль">
-      <button>Увійти</button>
-    </label>
-    <div class="medium-function">
-      <h5>АБО</h5>
-      <div class="logo-link-facebook">
-        <a href="#"><p>Увійти через Facebook</p>
-      </a><img class="logo-facebook"
-               src="https://static.vecteezy.com/system/resources/previews/018/930/476/original/facebook-logo-facebook-icon-transparent-free-png.png"
-               alt="facebook-logo">
-      </div>
-      <a href="#"><p>Забули пароль?</p></a>
+    <div class="register-box">
+        <p>Не маєте облікового запису?<a href="#">Зареєструйтеся</a></p>
     </div>
-  </form>
+
 </div>
 
 </body>
