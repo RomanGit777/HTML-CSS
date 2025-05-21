@@ -32,6 +32,21 @@
       align-items: center;
       flex-direction: column;
     }
+    .logo-facebook{
+      width: 20px;
+      height: 20px;
+      margin-top: 15px;
+    }
+    .logo-link-facebook{
+      display: flex;
+      flex-direction: row-reverse;
+    }
+    .medium-function{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
   </style>
 </head>
 <body>
@@ -46,6 +61,16 @@
       <input type="password" name="password" placeholder="Пароль">
       <button>Увійти</button>
     </label>
+    <div class="medium-function">
+      <h5>АБО</h5>
+      <div class="logo-link-facebook">
+        <a href="#"><p>Увійти через Facebook</p>
+      </a><img class="logo-facebook"
+               src="https://static.vecteezy.com/system/resources/previews/018/930/476/original/facebook-logo-facebook-icon-transparent-free-png.png"
+               alt="facebook-logo">
+      </div>
+      <a href="#"><p>Забули пароль?</p></a>
+    </div>
   </form>
 </div>
 
