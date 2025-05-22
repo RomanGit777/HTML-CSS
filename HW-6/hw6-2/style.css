@@ -1,0 +1,100 @@
+body{
+    font-family: arial, sans-serif;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login-box{
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    padding: 40px;
+    width: 300px;
+    text-align: center;
+}
+.register-box {
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    padding: 20px;
+    width: 340px;
+    text-align: center;
+    margin-top: 10px;
+}
+.logo{
+    display: block;
+    margin: 0 auto 20px;
+    height: 105px;
+    object-fit: contain;
+}
+.fb-icon {
+    width: 18px;
+    height: 18px;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+}
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #3897f0;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.divider {
+    margin: 15px 0;
+    color: #999;
+    font-weight: bold;
+    position: relative;
+}
+.fb-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: #385185;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.forgot {
+    display: block;
+    margin-top: 12px;
+    color: #00376b;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+
+.register-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    color: #262626;
+    margin: 0;
+}
+
+.register-text a {
+    color: #0095f6;
+    font-weight: bold;
+    text-decoration: none;
+}
