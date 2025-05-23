@@ -23,3 +23,17 @@ h2{
     align-items: center;
     gap: 128px;
 }
+.card{
+    width: 245px;
+    height: 291px;
+    padding: 20px;
+    color: #282828;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 32px;
+    background: #FFF;
+    box-shadow: 0 4px 20px 0 rgba(139, 139, 139, 0.10);
+}
