@@ -55,3 +55,11 @@ nav a{
     justify-content: center;
     align-items: center;
 }
+.one-position__w-1153{
+    width: 1153px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
