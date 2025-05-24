@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-.w-1153{
+.header__w-1153{
     width: 1153px;
     height: 100%;
     margin: 0 auto;
@@ -38,10 +38,11 @@ nav a{
     line-height: normal;
     opacity: 0.6;
 }
-.w-1153 h2{
+.header__w-1153 h2{
     color: #E5E5E5;
     font-family: "Inter", sans-serif;
     font-size: 20px;
     font-weight: 700;
     opacity: 0.6;
 }
+/*------------------section__one-posotion--------------------------*/
