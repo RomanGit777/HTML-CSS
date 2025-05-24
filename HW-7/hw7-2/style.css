@@ -63,3 +63,48 @@ nav a{
     justify-content: space-between;
     align-items: center;
 }
+.one-position__w-1153 .button-posotion{
+    width: 145px;
+    height: 41px;
+    border-radius: 8px;
+    background: #4B4864;
+    color: #8E88C1;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 130%; /* 20.8px */
+    letter-spacing: 0.8px;
+    border: none;
+}
+.one-position__w-1153 h1{
+    width: 261px;
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+}
+.one-position__w-1153 p{
+    width: 570px;
+    height: 85px;
+    color: #8E88C1;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 130%; /* 20.8px */
+    letter-spacing: 0.8px;
+}
+.one-position__w-1153 .button-about{
+    width: 200px;
+    height: 56px;
+    border-radius: 8px;
+    background: #3F50E7;
+    box-shadow: 0 6px 20px 0 rgba(0, 255, 224, 0.20);
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+}
+.one-position__w-1153 div{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
