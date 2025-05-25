@@ -119,6 +119,9 @@ nav a{
     justify-content: center;
     align-content: center;
 }
-.one-position__w-1153 div:nth-child(2) img{
+
+.one-position__w-1153 div:nth-child(2) img {
     height: 318px;
+    width: auto;
+    object-fit: contain;
 }
