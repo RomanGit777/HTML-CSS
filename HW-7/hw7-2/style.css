@@ -34,7 +34,6 @@ nav ul{
 nav a{
     text-decoration: none;
     color: #FFF;
-    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -126,13 +125,16 @@ nav a{
     object-fit: contain;
 }
 /*-------------------------section-lorem-ipsum---------------------------*/
-.lorem-ipsum__w-1153{
+.lorem-ipsum{
     height: 764px;
     background: #071341;
+    padding: 50px 0 152px 0;
+    box-sizing: border-box;
 }
 .lorem-w-1153{
     width: 1153px;
-    box-sizing: border-box;
+    height: 100%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
