@@ -140,8 +140,14 @@ nav a{
     align-items: center;
 }
 .icons{
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.icon{
+    display: flex;
+    justify-content: center;
     align-items: center;
     gap: 18px;
 }
