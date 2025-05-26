@@ -129,11 +129,52 @@ nav a{
 .lorem-ipsum__w-1153{
     height: 764px;
     background: #071341;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .lorem-w-1153{
     width: 1153px;
     box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 18px;
+}
+/*.icon{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+/*.lorem-w-1153>div:nth-child(1){*/
+/*    width: 56.144px;*/
+/*    height: 56px;*/
+/*    border-radius: 8px;*/
+/*    background: #FF6853;*/
+/*}*/
+/*.lorem-w-1153>div:nth-child(2){*/
+/*    width: 56.144px;*/
+/*    height: 56px;*/
+/*    border-radius: 8px;*/
+/*    background: #FF537C;*/
+/*}*/
+/*.lorem-w-1153>div:nth-child(1){*/
+/*    width: 56.144px;*/
+/*    height: 56px;*/
+/*    border-radius: 8px;*/
+/*    background: #FF6853;*/
+/*}*/
+/*.lorem-w-1153>div:nth-child(1){*/
+/*    width: 56.144px;*/
+/*    height: 56px;*/
+/*    border-radius: 8px;*/
+/*    background: #FF6853;*/
+/*}*/
+/*.lorem-w-1153>div:nth-child(1){*/
+/*    width: 56.144px;*/
+/*    height: 56px;*/
+/*    border-radius: 8px;*/
+/*    background: #FF6853;*/
+/*}*/
