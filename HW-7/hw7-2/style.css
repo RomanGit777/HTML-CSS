@@ -209,6 +209,9 @@ nav a{
     letter-spacing: 0.8px;
     margin-bottom: 50px;
 }
-.lorem-w-1153>cards{
-
+.cards{
+    width: 209px;
+    height: 206px;
+    border-radius: 8px;
+    border: 2px solid #8E88C1;
 }
