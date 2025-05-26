@@ -126,9 +126,14 @@ nav a{
     object-fit: contain;
 }
 /*-------------------------section-lorem-ipsum---------------------------*/
-.lorem-w-1153{
-    width: 1153px;
+.lorem-ipsum__w-1153{
     height: 764px;
     background: #071341;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lorem-w-1153{
+    width: 1153px;
     box-sizing: border-box;
 }
