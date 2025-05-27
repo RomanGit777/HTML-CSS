@@ -118,8 +118,60 @@ header{
 .lorem-ipsum_w-1153{
     width: 1153px;
     height: 100%;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.icons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 73px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+.icon div:nth-child(1){
+    gap: 18px;
+    width: 56.144px;
+    height: 56px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons>div h4{
+    width: 38.098px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+}
+.icons>div p{
+    width: 101.26px;
+    color: #8E88C1;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.8px;
+}
+.icons>div:nth-child(1) div:nth-child(1){
+    background: #FF6853;
+}
+.icons>div:nth-child(2) div:nth-child(1){
+    background: #FF537C;
+}
+.icons>div:nth-child(3) div:nth-child(1){
+    background: #80D2C4;
+}
+.icons>div:nth-child(4) div:nth-child(1){
+    background: #3F50E7;
+}
+.icons>div:nth-child(5) div:nth-child(1){
+    background: #95CB7C;
 }
