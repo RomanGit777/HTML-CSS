@@ -115,3 +115,11 @@ header{
     background: #071341;
     padding-top: 50px;
 }
+.lorem-ipsum_w-1153{
+    width: 1153px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
