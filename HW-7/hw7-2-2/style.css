@@ -130,6 +130,7 @@ header{
     justify-content: space-between;
     align-items: center;
     gap: 73px;
+    margin-bottom: 50px;
 }
 .icon{
     display: flex;
@@ -174,4 +175,22 @@ header{
 }
 .icons>div:nth-child(5) div:nth-child(1){
     background: #95CB7C;
+}
+.lorem-ipsum_w-1153 h1{
+    width: 1074px;
+    color: #FFF;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px; /* 116.667% */
+}
+.lorem-ipsum_w-1153>div:nth-child(2) p{
+    color: #8E88C1;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.8px;
+    margin-top: 50px;
 }
