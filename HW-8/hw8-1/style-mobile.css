@@ -1,0 +1,9 @@
+@media screen and (max-width: 480px) {
+    .items{
+        width: 720px;
+    }
+    .item{
+        width: 218px;
+    }
+
+}
